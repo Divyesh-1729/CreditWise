@@ -113,3 +113,54 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 ### Clone the repository:
 ```bash
 git clone https://github.com/your-username/creditwise.git
+
+### 6. Model Training & Evaluation
+- Trained a classification model (e.g., Logistic Regression)  
+- Evaluated using:
+  - Accuracy  
+  - Predictions comparison  
+
+---
+
+## 📈 Key Insights
+- Credit score and income strongly influence loan approval  
+- Data imbalance can affect model performance  
+- Proper preprocessing improves prediction accuracy  
+
+---
+
+## 💡 Future Improvements
+- Implement advanced models (Random Forest, XGBoost)  
+- Handle class imbalance using SMOTE  
+- Deploy as a web application (Flask / MERN)  
+- Add real-time prediction interface  
+
+---
+
+## 🛠️ How to Run the Project
+
+### Clone the repository:
+```bash
+git clone https://github.com/your-username/creditwise.git
+
+### Install dependencies:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+### Run the notebook:
+```bash
+jupyter notebook credit_wise.ipynb
+
+## 📌 Project Status
+- ✅ Completed (Basic ML Pipeline)  
+- 🚧 Scope for enhancements and deployment  
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📬 Contact
+For any queries or suggestions, feel free to connect.
