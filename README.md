@@ -53,7 +53,7 @@ The main goal of this project is to:
   - Numerical columns → filled using **mean**
   - Categorical columns → filled using **most frequent value**
 
-```python
+
 from sklearn.impute import SimpleImputer
 
 num_imp = SimpleImputer(strategy="mean")
