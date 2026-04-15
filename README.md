@@ -53,7 +53,11 @@ The main goal of this project is to:
   - Numerical columns → filled using **mean**
   - Categorical columns → filled using **most frequent value**
 
+<<<<<<< HEAD
 
+=======
+```python```
+>>>>>>> 915cd6ea5b2e2f0a830faf8aec121ca5217e1739
 from sklearn.impute import SimpleImputer
 
 num_imp = SimpleImputer(strategy="mean")
@@ -80,7 +84,7 @@ cat_imp = SimpleImputer(strategy="most_frequent")
 - Used Scikit-learn  
 - Split data into training and testing sets  
 
-```python
+```python```
 from sklearn.model_selection import train_test_split
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
@@ -111,7 +115,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 ## 🛠️ How to Run the Project
 
 ### Clone the repository:
-```bash
+```bash```
 git clone https://github.com/your-username/creditwise.git
 
 ### 6. Model Training & Evaluation
@@ -140,15 +144,15 @@ git clone https://github.com/your-username/creditwise.git
 ## 🛠️ How to Run the Project
 
 ### Clone the repository:
-```bash
+```bash```
 git clone https://github.com/your-username/creditwise.git
 
 ### Install dependencies:
-```bash
+```bash```
 pip install pandas numpy matplotlib seaborn scikit-learn
 
 ### Run the notebook:
-```bash
+```bash```
 jupyter notebook credit_wise.ipynb
 
 ## 📌 Project Status
