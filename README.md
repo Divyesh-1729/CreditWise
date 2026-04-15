@@ -80,7 +80,7 @@ cat_imp = SimpleImputer(strategy="most_frequent")
 - Used Scikit-learn  
 - Split data into training and testing sets  
 
-```python
+```python```
 from sklearn.model_selection import train_test_split
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
@@ -111,7 +111,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 ## 🛠️ How to Run the Project
 
 ### Clone the repository:
-```bash
+```bash```
 git clone https://github.com/your-username/creditwise.git
 
 ### 6. Model Training & Evaluation
@@ -140,15 +140,15 @@ git clone https://github.com/your-username/creditwise.git
 ## 🛠️ How to Run the Project
 
 ### Clone the repository:
-```bash
+```bash```
 git clone https://github.com/your-username/creditwise.git
 
 ### Install dependencies:
-```bash
+```bash```
 pip install pandas numpy matplotlib seaborn scikit-learn
 
 ### Run the notebook:
-```bash
+```bash```
 jupyter notebook credit_wise.ipynb
 
 ## 📌 Project Status
